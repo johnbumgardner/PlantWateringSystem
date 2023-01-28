@@ -48,3 +48,5 @@ while True:
         curr_val = sum(system.sample()) / 2
         if (curr_val > mid_point):
             water_the_plant_blue.on()
+        else:
+            water_the_plant_blue.off()
